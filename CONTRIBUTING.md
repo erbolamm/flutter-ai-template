@@ -7,7 +7,7 @@
 ### 1. 🍴 Fork y Clone
 ```bash
 # Fork en GitHub, luego:
-git clone https://github.com/TU_USUARIO/flutter-ai-template.git
+git clone https://github.com/franciscomateomarquez/flutter-ai-template.git
 cd flutter-ai-template
 ```
 
@@ -173,12 +173,12 @@ cp -r ../.github .
 ## 📞 Contacto
 
 ### 💬 Discusiones
-- **Ideas generales**: [GitHub Discussions](https://github.com/TU_USUARIO/flutter-ai-template/discussions)
-- **Preguntas**: [GitHub Issues](https://github.com/TU_USUARIO/flutter-ai-template/issues) con label `question`
+- **Ideas generales**: [GitHub Discussions](https://github.com/franciscomateomarquez/flutter-ai-template/discussions)
+- **Preguntas**: [GitHub Issues](https://github.com/franciscomateomarquez/flutter-ai-template/issues) con label `question`
 
 ### 🐛 Reportar Problemas
-- **Bugs**: [Crear Issue](https://github.com/TU_USUARIO/flutter-ai-template/issues/new)
-- **Solicitar features**: [Crear Issue](https://github.com/TU_USUARIO/flutter-ai-template/issues/new) con template de feature request
+- **Bugs**: [Crear Issue](https://github.com/franciscomateomarquez/flutter-ai-template/issues/new)
+- **Solicitar features**: [Crear Issue](https://github.com/franciscomateomarquez/flutter-ai-template/issues/new) con template de feature request
 
 ## 🏆 Reconocimientos
 

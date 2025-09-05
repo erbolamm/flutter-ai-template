@@ -20,7 +20,7 @@
 ### 1. Clonar e integrar
 ```bash
 # Clonar la plantilla
-git clone https://github.com/TU_USUARIO/flutter-ai-template.git
+git clone https://github.com/franciscomateomarquez/flutter-ai-template.git
 cd flutter-ai-template
 
 # Copiar a tu proyecto Flutter existente
@@ -148,4 +148,4 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ⭐ **¿Te gusta esta plantilla? ¡Dale una estrella!**
 
-📧 **¿Problemas o sugerencias?** [Abre un issue](https://github.com/TU_USUARIO/flutter-ai-template/issues)
+📧 **¿Problemas o sugerencias?** [Abre un issue](https://github.com/franciscomateomarquez/flutter-ai-template/issues)
