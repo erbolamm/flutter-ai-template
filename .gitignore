@@ -1,0 +1,50 @@
+# Ignore archivos temporales y de desarrollo
+*.tmp
+*.temp
+*.log
+*~
+.DS_Store
+
+# Ignore archivos de configuración local
+config.local.yaml
+settings.local.json
+
+# Ignore archivos de notas personales
+nota*.txt
+notas/
+temp/
+
+# Ignore backups
+*.backup
+*.bak
+backup/
+
+# Ignore archivos de IDE específicos del usuario
+.vscode/settings.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Ignore archivos de Python (MCP server)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+
+# Ignore archivos de Node.js si se usan herramientas adicionales
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore archivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini

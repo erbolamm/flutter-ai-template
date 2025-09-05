@@ -1,0 +1,40 @@
+name: plantilla_flutter
+description: Plantilla universal para proyectos Flutter
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Logging (OBLIGATORIO - nunca usar print())
+  logger: ^2.0.2
+  
+  # Inyección de dependencias
+  get_it: ^8.0.3
+  
+  # Manejo de estado
+  provider: ^6.1.2
+  
+  # Firebase (opcional según proyecto)
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.3
+  firebase_crashlytics: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Linting y análisis de código
+  flutter_lints: ^6.0.0
+  
+  # Configuración de iconos y splash
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.6
+
+flutter:
+  uses-material-design: true

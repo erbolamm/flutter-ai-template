@@ -1,0 +1,43 @@
+capabilities:
+  - name: health
+    type: health
+    description: Comprobar estado del servidor MCP
+  
+  - name: list_capabilities
+    type: list_capabilities
+    description: Listar todas las capacidades disponibles
+  
+  - name: analyze_dependencies
+    type: analyze_dependencies
+    description: Analizar dependencias del pubspec.yaml
+  
+  - name: list_dart_files
+    type: list_files
+    path: lib
+    glob: "*.dart"
+    description: Listar todos los archivos Dart del proyecto
+  
+  - name: list_project_files
+    type: list_files
+    path: .
+    glob: "*"
+    description: Listar archivos del proyecto
+  
+  - name: read_file
+    type: read_file
+    description: Leer contenido de un archivo
+    allow_patterns:
+      - "^lib/.*\\.dart$"
+      - "^test/.*\\.dart$"
+      - "^pubspec\\.yaml$"
+      - "^\\.github/.*\\.md$"
+  
+  - name: flutter_analyze
+    type: shell
+    command: flutter analyze --no-fatal-infos
+    description: Ejecutar análisis estático de Flutter
+  
+  - name: flutter_test
+    type: shell
+    command: flutter test --reporter compact
+    description: Ejecutar tests de Flutter

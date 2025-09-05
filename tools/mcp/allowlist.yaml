@@ -1,0 +1,17 @@
+paths:
+  - "lib"
+  - "test"
+  - "pubspec.yaml"
+  - "pubspec.lock"
+  - ".github"
+  - "README.md"
+  - "CHANGELOG.md"
+  - "tools/mcp"
+
+regex_patterns:
+  - "^lib/.*\\.dart$"
+  - "^test/.*\\.dart$" 
+  - "^pubspec\\.(yaml|lock)$"
+  - "^\\.github/.*\\.(md|yaml|yml)$"
+  - "^tools/mcp/.*\\.(yaml|md|py)$"
+  - "^(README|CHANGELOG)\\.md$"

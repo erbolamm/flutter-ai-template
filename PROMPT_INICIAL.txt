@@ -1,0 +1,82 @@
+INSTRUCCIONES DE CONFIGURACIÓN INICIAL PARA IA/COPILOT
+--------------------------------------------
+
+¡Hola! He integrado una plantilla universal de Flutter en mi proyecto. Por favor, configúrate según estas instrucciones:
+
+🎯 OBJETIVO DEL PROYECTO
+------------------------
+[PERSONALIZAR AQUÍ] Describe brevemente el propósito principal de tu aplicación Flutter. Ejemplo:
+- "Esta es una aplicación de gestión de tareas con sincronización en la nube"
+- "Es un e-commerce para productos artesanales con pagos integrados"
+- "Aplicación educativa para aprender idiomas con gamificación"
+
+📋 REGLAS DE CÓDIGO OBLIGATORIAS
+-------------------------------
+1. **Logging**: SIEMPRE usa `logger` - NUNCA `print()`
+   - Ejemplo: `final logger = Logger(); logger.d('Mensaje');`
+
+2. **Idioma**: Todo el código, comentarios y documentación en ESPAÑOL
+
+3. **Estilo**: Sigue effective_dart
+   - Variables/funciones: `camelCase`
+   - Clases: `PascalCase`
+   - Archivos: `snake_case`
+å
+4. **Arquitectura**: Aplica principios S.O.L.I.D.
+   - Explica qué principio aplicaste cuando refactorices
+   - Prefiere objetos inmutables
+
+🛠️ DEPENDENCIAS DEL PROYECTO
+----------------------------
+Consulta siempre `pubspec.yaml` para las dependencias exactas. NO asumas versiones.
+
+Dependencias obligatorias mínimas:
+- `logger` (logging obligatorio)
+- `get_it` (inyección de dependencias)
+- `provider` (manejo de estado)
+
+🏗️ ARQUITECTURA RECOMENDADA
+---------------------------
+Estructura de Clean Architecture:
+- `lib/presentation/` - UI, widgets, páginas
+- `lib/domain/` - Casos de uso, entidades, contratos
+- `lib/data/` - Implementaciones de repositorios
+- `lib/core/` - Servicios transversales (DI, logging, utils)
+
+📝 PROCESO DE TRABAJO
+--------------------
+1. **Análisis crítico**: Sé escéptico, cuestiona suposiciones
+2. **Verificación**: Antes de crear código, verifica si ya existe
+3. **Explicación**: Presenta plan de acción antes de ejecutar tareas complejas
+4. **Confirmación**: Usa escala 1-3 para verificar comprensión
+   - 1: Confundido
+   - 2: Más o menos  
+   - 3: Entendido (solo avanza con 3)
+
+🚀 SERVIDOR MCP (OPCIONAL)
+-------------------------
+Si necesitas capacidades avanzadas (análisis global, métricas, refactors amplios):
+
+1. Verificar: `curl http://localhost:3000/health`
+2. Si falla, iniciar: `./tools/scripts/start_mcp.sh`
+3. Usar endpoints MCP para tareas complejas
+
+⚠️ RESTRICCIONES
+----------------
+- NO uses Firebase directamente desde Widgets
+- NO uses `print()` jamás
+- NO agregues dependencias sin verificar `pubspec.yaml`
+- NO hagas más de una pregunta por mensaje
+
+✅ VERIFICACIÓN ANTES DE EMPEZAR
+-------------------------------
+Confirma que entiendes estas reglas respondiendo:
+"Entendido. Configuración aplicada para proyecto Flutter con [DESCRIBE TU OBJETIVO]. Listo para trabajar siguiendo principios S.O.L.I.D., usando logger y arquitectura Clean."
+
+Después de esa confirmación, puedes empezar a trabajar normalmente.
+
+--------------------------------------------==
+ARCHIVO GENERADO POR: Plantilla Universal Flutter
+VERSIÓN: 1.0
+UBICACIÓN: Copia este texto al chat y luego BORRA este archivo
+--------------------------------------------==
